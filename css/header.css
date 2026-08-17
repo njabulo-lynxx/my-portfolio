@@ -31,24 +31,3 @@ nav .right a span {
 nav .right a:hover {
   color: var(--accent);
 }
-
-@media (max-width: 600px) {
-  nav {
-    padding: 0 20px;
-  }
-
-  nav .right a span {
-    display: none;
-  }
-
-  nav .right a:last-child {
-    color: var(--text-color);
-    background-color: transparent;
-    padding: 0;
-  }
-
-  nav .right a {
-    font-size: 22px;
-  }
-
-}
