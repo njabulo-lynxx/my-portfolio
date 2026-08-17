@@ -1,0 +1,27 @@
+:root {
+  --bg-color: rgb(243, 241, 241);
+  --text-color: rgba(50, 60, 70);
+  --accent: rgb(44, 118, 192);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
